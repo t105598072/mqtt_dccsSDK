@@ -1,25 +1,25 @@
-# ´e∏mß@∑~ #
+# ÂâçÁΩÆ‰ΩúÊ•≠ #
 =================================================================================================
-- ´ÿ∏m¿Ùπ“ 
+- Âª∫ÁΩÆÁí∞Â¢É 
 	- pyhon3.x.x
 	   
-- ¨€®Ãlibrary
+- Áõ∏‰æùlibrary
 	- paho-mqtt (MQTT Client)
 		- https://pypi.python.org/pypi/paho-mqtt/
 
-# ®œ•Œª°©˙#
+# ‰ΩøÁî®Ë™™Êòé#
 =================================================================================================
 	1. Build paho-mqtt 
 		pip install paho-mqtt
-		¶w∏À paho-mqtt
+		ÂÆâË£ù paho-mqtt
 	
-	2. ®œ•ŒdccsSample_sub (..\dccs\dccsSample)
+	2. ‰ΩøÁî®dccsSample_sub (..\dccs\dccsSample)
 		python dccsSample_sub.py
 	
-	3. ®œ•ŒdccsSample_pub (..\dccs\dccsSample)
+	3. ‰ΩøÁî®dccsSample_pub (..\dccs\dccsSample)
 		python dccsSample_pub.py	
 
-# Python Code API§∂≠±#
+# Python Code API‰ªãÈù¢#
 =================================================================================================
 - Class dccsSDKStart(ServiceKey)
 	- Initial dccsSDK. Auto Get DCCS Credential. 
@@ -39,7 +39,7 @@
 	- @param Qos (in) Boolean vlaue True(1) or False(0). Quality of Service
 	- @returns DCCS_SUCCESS: Success, else: Fail. Reference Error Code
 
-# Error Code •NΩX#
+# Error Code ‰ª£Á¢º#
 =================================================================================================
 - ERROR_ServiceKeyNotCorrect -1
 Return code: URL not correct or Internet not connect
