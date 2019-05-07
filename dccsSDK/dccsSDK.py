@@ -132,7 +132,7 @@ class dccsSDKStart:
 				sys.exit(0)
 		else:
 			try:
-				dccsData = urlopen("https://api-dccs.wise-paas.com/v1/serviceCredentials/"+self.ServiceKey)
+				dccsData = urlopen("http://??"+self.ServiceKey)
 			except:
 				print("ERROR: ServiceKey not correct or Internet not connect")
 				return ERROR_ServiceKeyNotCorrect
