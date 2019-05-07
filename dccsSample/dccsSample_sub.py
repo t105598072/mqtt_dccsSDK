@@ -7,7 +7,7 @@ def RecvMsgCB(Msg):
 	return Msg;
 
 def main():
-	dccsContent = dccsSDK.dccsSDKStart("JsonWeb")
+	dccsContent = dccsSDK.dccsSDKStart("Json(http)")
 	dccsContent.dccsSDK_lib_subscribe("Topic", 0, RecvMsgCB)
 
 main()
