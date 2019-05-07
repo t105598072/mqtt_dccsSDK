@@ -9,16 +9,16 @@ import json
 from urllib.request import urlopen
 # MQTTError
 ERROR_ServiceKeyNotCorrect 	= -1
-ERROR_BadProtocol 			= -2
-ERROR_ClientError			= -3
+ERROR_BadProtocol 		= -2
+ERROR_ClientError		= -3
 ERROR_ServiceUnavailable 	= -4
-ERROR_BadUsernamePassword   = -5
+ERROR_BadUsernamePassword  	= -5
 ERROR_NotAuthorized 		= -6
 ERROR_CredentialNotFound 	= -7
-ERROR_ConnectError			= -8
+ERROR_ConnectError		= -8
 # JsonError
-ERROR_LoadJsonError			= -10
-ERROR_HostValueNull			= -11
+ERROR_LoadJsonError		= -10
+ERROR_HostValueNull		= -11
 ERROR_UsernameValueNull 	= -12
 ERROR_PortValueNull 		= -13
 ERROR_PasswordValueNull		= -14
@@ -35,17 +35,17 @@ class dccsSDKStart:
 		self.dccsSDK_Username 			= None
 		self.dccsSDK_Password 			= None
 		self.dccsSDK_BrokeHost 			= None
-		self.dccsSDK_Port 				= None
+		self.dccsSDK_Port 			= None
 		self.dccsSDK_ServiceKey 		= None
-		self.dccsSDK_TopicSubscribe 	= None
+		self.dccsSDK_TopicSubscribe 		= None
 		self.dccsSDK_TopicPublish 		= None
 
 		self.dccsInfo_Topic 			= None
-		self.dccsInfo_Qos				= None
+		self.dccsInfo_Qos			= None
 		self.dccsInfo_Payload			= None
 		
 		self.message_payload			= None
-		self.CB_Func 					= None
+		self.CB_Func 				= None
 		# 執行parser
 		self.dccs_parseCredential()
 
