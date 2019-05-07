@@ -1,5 +1,5 @@
 # 前置作業 #
-=================================================================================================
+
 - 建置環境 
 	- pyhon3.x.x
 	   
@@ -8,7 +8,7 @@
 		- https://pypi.python.org/pypi/paho-mqtt/
 
 # 使用說明#
-=================================================================================================
+
 	1. Build paho-mqtt 
 		pip install paho-mqtt
 		安裝 paho-mqtt
@@ -20,7 +20,7 @@
 		python dccsSample_pub.py	
 
 # Python Code API介面#
-=================================================================================================
+
 - Class dccsSDKStart(ServiceKey)
 	- Initial dccsSDK. Auto Get DCCS Credential. 
 	- @param ServiceKey (in) String of the ServiceKey or URL to get DCCS Credential.
@@ -40,7 +40,7 @@
 	- @returns DCCS_SUCCESS: Success, else: Fail. Reference Error Code
 
 # Error Code 代碼#
-=================================================================================================
+
 - ERROR_ServiceKeyNotCorrect -1
 Return code: URL not correct or Internet not connect
 
